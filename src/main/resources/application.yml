@@ -6,11 +6,11 @@ spring:
     name: portfolio-tracker
 
   datasource:
-    url: jdbc:postgresql://localhost:5432/portfolio_db
+    url: jdbc:postgresql://switchyard.proxy.rlwy.net:18321/railway
     username: postgres
-    password: password
+    password: mpZcAXPuStpwVQWclOrwfsuZRoHDIYqW
     driver-class-name: org.postgresql.Driver
-  
+
   jpa:
     hibernate:
       ddl-auto: update
